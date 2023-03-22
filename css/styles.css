@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', 'sans-serif';
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.46;
+  font-weight: 400px;
+}
+/*pasek nav*/
+.link-nav:hover,
+.link-nav:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.link-nav {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.web {
+  font-family: Raleway;
+  color: #2196f3;
+  font-size: 26px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.studio {
+  font-family: Raleway;
+  color: #000000;
+  font-size: 26px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.link-mailto {
+  color: #757575;
+}
+
+.link-tel {
+  color: #757575;
+}
+
+.main-box {
+  background-color: #2f303a;
+  color: #ffffff;
+  max-width: 1600px;
+  max-height: 600px;
+  font-weight: 900px;
+  text-align: center;
+}
+
+/*przycisk na głownej stronie*/
+.button-main:hover,
+.button-main:focus {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+/*przycisk na głownej stronie*/
+.button-main {
+  background-color: #2196f3;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.advantages {
+  font-weight: 700 px;
+  text-align: center;
+}
+
+.advantages-paragraph {
+  color: #757575;
+}
+
+.projects {
+  max-width: 1170px;
+}
+
+.projects-heading {
+  font-weight: 700 px;
+  text-align: center;
+}
+
+.footer-box {
+  background-color: #2f303a;
+  color: #ffffff;
+  max-width: 1600px;
+  max-height: 252px;
+}
+
+.studio-footer {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 26px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+/*   PORTFOLIO    */
+
+.portfolio-button {
+  background-color: #f5f4fa;
+  border: none;
+  color: #212121;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 500px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 500px;
+}
