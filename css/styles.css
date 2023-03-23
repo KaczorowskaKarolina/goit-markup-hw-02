@@ -1,9 +1,17 @@
 body {
   font-family: 'Roboto', 'sans-serif';
-  color: #212121;
+  color: var(--text-color);
   font-size: 14px;
   line-height: 1.46;
-  font-weight: 400px;
+}
+
+:root {
+  --text-color: #212121;
+  --color-link: #757575;
+}
+
+.header {
+  text-decoration: none;
 }
 /*pasek nav*/
 .link-nav:hover,
@@ -13,9 +21,9 @@ body {
 }
 
 .link-nav {
-  color: #212121;
+  color: var(--text-color);
   text-decoration: none;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .web {
@@ -35,30 +43,30 @@ body {
 }
 
 .link-mailto {
-  color: #757575;
+  color: var(--color-link);
 }
 
 .link-tel {
-  color: #757575;
+  color: var(--color-link);
 }
 
 .main-box {
   background-color: #2f303a;
   color: #ffffff;
-  max-width: 1600px;
-  max-height: 600px;
-  font-weight: 900px;
+  max-width: 1600;
+  max-height: 600;
+  font-weight: 900;
   text-align: center;
 }
 
 /*przycisk na głownej stronie*/
-.button-main:hover,
-.button-main:focus {
-  color: #2196f3;
-  background-color: #ffffff;
+.button:hover,
+.button:focus {
+  color: #000000;
+  background-color: #2196f3;
 }
 /*przycisk na głownej stronie*/
-.button-main {
+.button {
   background-color: #2196f3;
   border: none;
   color: #ffffff;
@@ -69,10 +77,11 @@ body {
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
+  font-weight: 700;
 }
 
 .advantages {
-  font-weight: 700 px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -85,8 +94,16 @@ body {
 }
 
 .projects-heading {
-  font-weight: 700 px;
+  font-weight: 700;
   text-align: center;
+}
+
+.h3 {
+  font-weight: 500;
+}
+
+.p {
+  color: var(--color-link);
 }
 
 .footer-box {
@@ -94,6 +111,7 @@ body {
   color: #ffffff;
   max-width: 1600px;
   max-height: 252px;
+  text-decoration: none;
 }
 
 .studio-footer {
@@ -119,7 +137,7 @@ body {
 .portfolio-button {
   background-color: #f5f4fa;
   border: none;
-  color: #212121;
+  color: var(--text-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -127,12 +145,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
   background-color: #2196f3;
-  font-weight: 500px;
+  font-weight: 500;
 }
