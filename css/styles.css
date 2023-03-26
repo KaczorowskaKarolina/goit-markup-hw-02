@@ -7,7 +7,7 @@ body {
 
 :root {
   --main-color: #212121;
-  --secodary-color: #757575;
+  --secondary-color: #757575;
   --highlight-color: #2196f3;
 }
 
@@ -31,16 +31,19 @@ body {
   line-height: 1.14;
 }
 
-.link-mailto-header {
-  color: var(--secodary-color);
+.link-contact-header {
+  color: var(--secondary-color);
   font-style: normal;
   cursor: pointer;
+  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  text-decoration: none;
 }
 
+/*
 .link-tel-header {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
   font-style: normal;
   text-decoration: none;
   cursor: default;
@@ -55,13 +58,15 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.14;
 }
-
-.link-tel-header:hover,
-.link-tel-header:focus {
+*/
+.link-contact-header:hover,
+.link-contact-header:focus {
   color: var(--highlight-color);
   text-decoration: none;
   letter-spacing: 0.02em;
+  font-weight: 500;
   line-height: 1.14;
+  cursor: pointer;
 }
 
 .a {
@@ -74,10 +79,12 @@ body {
 .theme {
   letter-spacing: 0.06em;
   line-height: 1.36;
+  font-weight: 900;
 }
 
 .web {
   font-family: Raleway;
+  font-weight: 700;
   color: var(--highlight-color);
   font-size: 26px;
   font-style: bold;
@@ -87,6 +94,7 @@ body {
 
 .studio {
   font-family: Raleway;
+  font-weight: 700;
   color: #000000;
   font-size: 26px;
   font-style: bold;
@@ -95,11 +103,11 @@ body {
 }
 
 /*.link-mailto {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
 }
 
 .link-tel {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
 }
 */
 
@@ -118,6 +126,7 @@ body {
   color: #000000;
   background-color: var(--highlight-color);
   line-height: 1.87;
+  font-weight: 700;
 }
 /*przycisk na głownej stronie*/
 .button {
@@ -143,7 +152,7 @@ body {
 }
 
 .advantages-paragraph {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
@@ -166,7 +175,7 @@ body {
 }
 
 .p {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
   letter-spacing: 0.03em;
   line-height: 1.18;
 }
@@ -183,6 +192,7 @@ body {
   font-family: Raleway;
   color: #ffffff;
   font-size: 26px;
+  font-weight: 700;
   font-style: bold;
   text-decoration: none;
   line-height: 1.19;
@@ -223,7 +233,7 @@ body {
 */
 
 .footer-email {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
   font-style: normal;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -231,7 +241,7 @@ body {
 }
 
 .footer-tel {
-  color: var(--secodary-color);
+  color: var(--secondary-color);
   font-style: normal;
   text-decoration: none;
   cursor: default;
