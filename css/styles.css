@@ -1,37 +1,88 @@
 body {
   font-family: 'Roboto', 'sans-serif';
-  color: var(--text-color);
+  color: var(--main-color);
   font-size: 14px;
-  line-height: 1.46;
+  text-decoration: none;
 }
 
 :root {
-  --text-color: #212121;
-  --color-link: #757575;
+  --main-color: #212121;
+  --secodary-color: #757575;
+  --highlight-color: #2196f3;
 }
 
 .header {
   text-decoration: none;
 }
-/*pasek nav*/
+
 .link-nav:hover,
 .link-nav:focus {
-  color: #2196f3;
+  color: var(--highlight-color);
   text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 
 .link-nav {
-  color: var(--text-color);
+  color: var(--main-color);
   text-decoration: none;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.link-mailto-header {
+  color: var(--secodary-color);
+  font-style: normal;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.link-tel-header {
+  color: var(--secodary-color);
+  font-style: normal;
+  text-decoration: none;
+  cursor: default;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.link-mailto-header:hover,
+.link-mailto-header:focus {
+  color: var(--highlight-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.link-tel-header:hover,
+.link-tel-header:focus {
+  color: var(--highlight-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+  letter-spacing: 0.03em;
+}
+
+.theme {
+  letter-spacing: 0.06em;
+  line-height: 1.36;
 }
 
 .web {
   font-family: Raleway;
-  color: #2196f3;
+  color: var(--highlight-color);
   font-size: 26px;
   font-style: bold;
   text-decoration: none;
+  line-height: 1.19;
 }
 
 .studio {
@@ -40,15 +91,17 @@ body {
   font-size: 26px;
   font-style: bold;
   text-decoration: none;
+  line-height: 1.19;
 }
 
-.link-mailto {
-  color: var(--color-link);
+/*.link-mailto {
+  color: var(--secodary-color);
 }
 
 .link-tel {
-  color: var(--color-link);
+  color: var(--secodary-color);
 }
+*/
 
 .main-box {
   background-color: #2f303a;
@@ -63,12 +116,12 @@ body {
 .button:hover,
 .button:focus {
   color: #000000;
-  background-color: #2196f3;
+  background-color: var(--highlight-color);
+  line-height: 1.87;
 }
 /*przycisk na głownej stronie*/
 .button {
-  background-color: #2196f3;
-  border: none;
+  background-color: var(--highlight-color);
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -78,15 +131,21 @@ body {
   cursor: pointer;
   align-items: center;
   font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
 }
 
 .advantages {
   font-weight: 700;
   text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
 
 .advantages-paragraph {
-  color: #757575;
+  color: var(--secodary-color);
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 .projects {
@@ -96,14 +155,20 @@ body {
 .projects-heading {
   font-weight: 700;
   text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
 }
 
 .h3 {
   font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 
 .p {
-  color: var(--color-link);
+  color: var(--secodary-color);
+  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 
 .footer-box {
@@ -120,16 +185,58 @@ body {
   font-size: 26px;
   font-style: bold;
   text-decoration: none;
+  line-height: 1.19;
 }
 
 .footer-address {
   color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 1px;
+  cursor: default;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
-.footer-address:hover,
+/*.footer-address:hover,
 .footer-address:focus {
   color: #2196f3;
   text-decoration: none;
+  letter-spacing: 0.03em;
+}
+*/
+
+.footer-email:hover,
+.footer-email:focus {
+  background-color: var(--highlight-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+/*.footer-tel:hover,
+.footer-tel:focus {
+  color: #2196f3;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+*/
+
+.footer-email {
+  color: var(--secodary-color);
+  font-style: normal;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+.footer-tel {
+  color: var(--secodary-color);
+  font-style: normal;
+  text-decoration: none;
+  cursor: default;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 /*   PORTFOLIO    */
@@ -137,7 +244,7 @@ body {
 .portfolio-button {
   background-color: #f5f4fa;
   border: none;
-  color: var(--text-color);
+  color: var(--main-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -146,11 +253,24 @@ body {
   cursor: pointer;
   align-items: center;
   font-weight: 500;
+  line-height: 1.62;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--highlight-color);
   font-weight: 500;
+  line-height: 1.62;
 }
+
+/* Na przykład, jeśli rozmiar czcionki w układzie to 16px a interlinia 24px, po prostu dzielimy 24 przez 16 i uzyskamy mnożnik 1.5. Użycie mnożnika zapewnia równomierne skalowanie odstępów między wierszami w przypadku zmiany rozmiaru tekstu.
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+line-height/font-size= mnożnik
+*/
