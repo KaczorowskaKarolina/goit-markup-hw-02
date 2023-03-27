@@ -41,24 +41,6 @@ body {
   text-decoration: none;
 }
 
-/*
-.link-tel-header {
-  color: var(--secondary-color);
-  font-style: normal;
-  text-decoration: none;
-  cursor: default;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-}
-
-.link-mailto-header:hover,
-.link-mailto-header:focus {
-  color: var(--highlight-color);
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-}
-*/
 .link-contact-header:hover,
 .link-contact-header:focus {
   color: var(--highlight-color);
@@ -76,10 +58,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.theme {
+.h1 {
   letter-spacing: 0.06em;
   line-height: 1.36;
+  font-style: normal;
   font-weight: 900;
+  font-size: 44px;
 }
 
 .web {
@@ -102,21 +86,10 @@ body {
   line-height: 1.19;
 }
 
-/*.link-mailto {
-  color: var(--secondary-color);
-}
-
-.link-tel {
-  color: var(--secondary-color);
-}
-*/
-
 .main-box {
   background-color: #2f303a;
   color: #ffffff;
-  max-width: 1600;
   max-height: 600;
-  font-weight: 900;
   text-align: center;
 }
 
@@ -161,11 +134,13 @@ body {
   max-width: 1170px;
 }
 
-.projects-heading {
-  font-weight: 700;
+.h2 {
   text-align: center;
   letter-spacing: 0.03em;
   line-height: 1.16;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .h3 {
@@ -183,8 +158,7 @@ body {
 .footer-box {
   background-color: #2f303a;
   color: #ffffff;
-  max-width: 1600px;
-  max-height: 252px;
+
   text-decoration: none;
 }
 
@@ -208,14 +182,6 @@ body {
   line-height: 1.71;
 }
 
-/*.footer-address:hover,
-.footer-address:focus {
-  color: #2196f3;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-}
-*/
-
 .footer-email:hover,
 .footer-email:focus {
   background-color: var(--highlight-color);
@@ -223,14 +189,6 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
-
-/*.footer-tel:hover,
-.footer-tel:focus {
-  color: #2196f3;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-}
-*/
 
 .footer-email {
   color: var(--secondary-color);
@@ -273,14 +231,3 @@ body {
   font-weight: 500;
   line-height: 1.62;
 }
-
-/* Na przykład, jeśli rozmiar czcionki w układzie to 16px a interlinia 24px, po prostu dzielimy 24 przez 16 i uzyskamy mnożnik 1.5. Użycie mnożnika zapewnia równomierne skalowanie odstępów między wierszami w przypadku zmiany rozmiaru tekstu.
-
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-
-line-height/font-size= mnożnik
-*/
