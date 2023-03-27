@@ -26,19 +26,23 @@ body {
 .link-nav {
   color: var(--main-color);
   text-decoration: none;
-  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .link-contact-header {
   color: var(--secondary-color);
   font-style: normal;
   cursor: pointer;
-  font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.14;
   text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .link-contact-header:hover,
@@ -46,9 +50,11 @@ body {
   color: var(--highlight-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  font-weight: 500;
   line-height: 1.14;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .a {
@@ -68,22 +74,26 @@ body {
 
 .web {
   font-family: Raleway;
-  font-weight: 700;
   color: var(--highlight-color);
   font-size: 26px;
   font-style: bold;
   text-decoration: none;
   line-height: 1.19;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .studio {
   font-family: Raleway;
-  font-weight: 700;
   color: #000000;
   font-size: 26px;
   font-style: bold;
   text-decoration: none;
   line-height: 1.19;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .main-box {
@@ -99,7 +109,9 @@ body {
   color: #000000;
   background-color: var(--highlight-color);
   line-height: 1.87;
+  font-style: normal;
   font-weight: 700;
+  font-size: 16px;
 }
 /*przycisk na głownej stronie*/
 .button {
@@ -112,9 +124,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
-  font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.87;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  border-style: none;
 }
 
 .advantages {
@@ -122,12 +137,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   line-height: 1.14;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .advantages-paragraph {
   color: var(--secondary-color);
   letter-spacing: 0.03em;
   line-height: 1.71;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .projects {
@@ -147,6 +166,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.18;
+  font-style: normal;
+  font-size: 16px;
 }
 
 .p {
@@ -166,10 +187,12 @@ body {
   font-family: Raleway;
   color: #ffffff;
   font-size: 26px;
-  font-weight: 700;
   font-style: bold;
   text-decoration: none;
   line-height: 1.19;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .footer-address {
@@ -222,6 +245,8 @@ body {
   align-items: center;
   font-weight: 500;
   line-height: 1.62;
+  border-style: none;
+  font-style: normal;
 }
 
 .portfolio-button:hover,
@@ -230,4 +255,7 @@ body {
   background-color: var(--highlight-color);
   font-weight: 500;
   line-height: 1.62;
+  font-style: normal;
+  font-size: 16px;
+  border-style: none;
 }
