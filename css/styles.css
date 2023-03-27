@@ -130,6 +130,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   border-style: none;
+  padding: 10px 41px 10px 42px;
 }
 
 .advantages {
@@ -174,6 +175,9 @@ body {
   color: var(--secondary-color);
   letter-spacing: 0.03em;
   line-height: 1.18;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .footer-box {
@@ -247,6 +251,7 @@ body {
   line-height: 1.62;
   border-style: none;
   font-style: normal;
+  padding: 6px 22px 6px 22px;
 }
 
 .portfolio-button:hover,
