@@ -205,30 +205,27 @@ body {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
-  cursor: pointer;
+  cursor: default;
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
 
-.footer-address:hover,
-.fotter-address:focus,
-.footer-contact:hover,
-.footer-contact:focus {
+.footer-email:hover,
+.footer-email:focus {
   background-color: var(--highlight-color);
   text-decoration: none;
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
 
-.footer-contact {
+.footer-email {
   color: var(--secondary-color);
   font-style: normal;
   cursor: pointer;
   letter-spacing: 0.03em;
   line-height: 1.71;
-  text-decoration: none;
 }
-/*
+
 .footer-tel {
   color: var(--secondary-color);
   font-style: normal;
@@ -237,7 +234,6 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
-*/
 
 /*   PORTFOLIO    */
 
